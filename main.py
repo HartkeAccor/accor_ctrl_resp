@@ -269,7 +269,7 @@ def main():
     c1, c2, c3 = st.columns(3)
 
     with c1:
-        fichier_extraction = st.file_uploader("Extraction Grand Back FR", type=["xls", "xlsx", "html", "htm"])
+        fichier_extraction = st.file_uploader("Extraction Grand Back", type=["xls", "xlsx", "html", "htm"])
         st.caption("Ancien format (1 colonne avec ;) OU nouveau format (table SharePoint/Excel Online)")
         st.image("images/exemple_extraction.png", use_container_width=True)
 
